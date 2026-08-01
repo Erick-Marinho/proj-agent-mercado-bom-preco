@@ -1,0 +1,42 @@
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.uv/
+
+# Segredos
+.env
+.env.local
+
+# Dados gerados
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+!data/raw/
+
+# Índices vetoriais (a partir do ciclo 5)
+data/index/
+*.faiss
+*.npy
+
+# Saídas
+output/
+*.png
+!docs/**/*.png
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Editor
+.vscode/*
+!.vscode/mcp.json
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
