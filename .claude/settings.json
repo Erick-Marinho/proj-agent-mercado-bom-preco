@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk -F';' 'NR>1{print $9}')",
+      "Bash(awk -F';' 'NR>1{print substr\\($2,4,7\\)}')"
+    ]
+  }
+}
