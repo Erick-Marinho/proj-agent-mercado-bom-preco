@@ -157,7 +157,7 @@ if [ ! -d src/bom_preco ]; then
         "data/bom_preco.db, e ainda não foi escrita." \
         "" \
         "Isso não é erro de instalação: é trabalho que ainda não foi feito." \
-        "O contrato da carga está em openspec/carga.md." \
+        "O contrato da carga está em openspec/changes/adicionar-carga-meta/." \
         "" \
         "Até ela existir, ./scripts/verify.sh reprova na checagem 17 e o" \
         "ambiente segue sem banco. Todo o resto acima já está pronto."

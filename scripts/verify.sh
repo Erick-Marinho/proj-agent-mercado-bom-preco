@@ -2,8 +2,9 @@
 #
 # verify.sh — confere que o ambiente do Mercado Bom Preço está utilizável.
 #
-# Implementa openspec/verify-sh.md. Só diagnostica: não instala, não sincroniza,
-# não cria o .env e não gera o banco. Toda mutação é do setup.sh.
+# Implementa openspec/specs/ambiente-verificacao/spec.md. Só diagnostica: não
+# instala, não sincroniza, não cria o .env e não gera o banco. Toda mutação
+# é do setup.sh.
 #
 # Exit code:  0 = ambiente utilizável (avisos permitidos)
 #             1 = uma falha ou mais
